@@ -9,3 +9,7 @@ Practicing communication between a Node client and server using an Event-driven 
 ## Chat app
 
 Playing with sockets and networking by developing a basic chat app.
+
+## Webserver
+
+Create a very basic webserver with JSON and HTML responses. It has default 404 and a redirect, too!
