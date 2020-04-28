@@ -33,3 +33,15 @@ node debug index.js
 ```sh
 node --inspect --debug-brk index.js
 ```
+
+## Child processes
+
+Use `spawn` to run commands; pipe `stdin` and `stdout`s.
+
+### Fork
+
+Create a fork for a heavy task to not block the main thread.
+
+### Cluster
+
+Create an http load balancer, where we create a fork for each CPU. This is a "cloning" scalability strategy. (Other strategies are: decomposing (= micro services) and splitting).
